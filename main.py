@@ -22,3 +22,12 @@ if __name__ == '__main__':
         for i in output_list:
             output = output + str(i)
         return output
+
+    def decoder(numbers):
+        outputt_list = []
+        outputt = ""
+        for i in numbers:
+            outputt_list.append(int(i) - 3)
+        for i in outputt_list:
+            outputt = outputt + str(i)
+        return outputt
